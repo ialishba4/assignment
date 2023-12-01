@@ -1,0 +1,32 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow:3px 3px 7px lightslategray;
+    margin: auto;
+}
+th,td{
+    padding: 8px;
+}
+    
+thead{
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+    color: darkcyan;
+}
+tbody{
+    border-bottom: 5px solid darkcyan ;
+}
+  tbody tr:hover { 
+    background-color:darkblue ;
+        color:white;
+    } 
+    .h1{
+        text-align: center;
+        color: darkcyan;
+    }
